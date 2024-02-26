@@ -1,0 +1,203 @@
+body {
+    background-image: url(./images/stationery-near-notebook-desk.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    margin: 60px;
+} 
+h1{ 
+    position: absolute;
+    left: 570px;
+    font-family: 'Sigmar', sans-serif;   
+    font-size: 165px;   
+    text-shadow: 15px 5px #7a3b08; 
+    color: rgb(255, 255, 255)        
+}
+h2{ 
+    position: absolute;
+    left: 1100px;
+    font-family: 'Sigmar', sans-serif;   
+    font-size: 250px;   
+    text-shadow: 15px 8px #7a3b08; 
+    color: rgb(255, 255, 255)        
+}
+
+h3{
+    font-size: 40px;  
+    text-shadow: 5px 6px #7a3b08;
+    color: rgb(255, 255, 255) 
+}
+
+.pencil{
+    position: absolute;
+    background-image: url(./images/giphy.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+}
+
+.pencil2{
+    position: absolute;
+    top: 800px;
+    left: 1px;
+    background-image: url('./images/cute-cartoon-pencil-people-bdd9e1a6b7fb6e7dbc737b20cfe16289.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+}
+
+
+.backdrop{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    height: 850px;
+    padding: 60px;
+    border-radius: 5%;
+    backdrop-filter: blur(13px);
+    box-shadow: 10px 10px 110px #555;
+    transition: .3s ease; 
+}
+.backdrop:hover{
+    box-shadow: 0 0 5px #7a3b08, 0 0 25px #7a3b08,0 0 50px #7a3b08;
+    background-image: url('./images/abscolorful_vector_fluid_design_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+
+.dataSection{
+    position: relative;
+    font-family: 'Sigmar', sans-serif;  
+    text-shadow: 4px 3px #7a3b08; 
+    color: rgb(255, 255, 255);
+    transition: .3s ease; 
+}
+.dataSection:hover{
+    box-shadow: 0 0 5px #7a3b08, 0 0 25px #7a3b08,0 0 50px #7a3b08;
+    background-image: url('./images/abscolorful_vector_fluid_design_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+
+
+.mainSection {
+    position: relative;
+    top: 500px;
+    left: 300px;
+    box-shadow: 10px 10px 110px #555;  
+    backdrop-filter: blur(13px);
+    padding: 50px;
+    padding-bottom: 2px;
+    border-radius: 5%;
+    width: 450px;
+    text-shadow: 4px 4px  #7a3b08;
+    font-family: 'Sigmar', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition: .3s ease;
+
+}
+.mainSection:hover{
+    box-shadow: 0 0 5px #7a3b08, 0 0 25px #7a3b08,0 0 50px #7a3b08;
+    background-image: url('./images/abscolorful_vector_fluid_design_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+
+}
+
+#btn{
+     padding: 30px;   
+     font-size: 18px;
+     width: 172px;
+     color:  #7a3b08;
+     border: #7a3b08;
+     border-radius: 20%;
+     box-shadow: 0 0 5px chartreuse, 0 0 25px rgb(184, 238, 131);
+     transition: 0.5s;
+}
+#btn:hover {
+    background: chartreuse;
+    color:  #7a3b08;
+    box-shadow: 0 0 5px chartreuse, 0 0 25px rgb(184, 238, 131),
+     0 0 50px rgb(184, 238, 131), 0 0 100px rgb(184, 238, 131), 0 0 200px rgb(184, 238, 131);
+}
+#btnreset{
+     padding: 30px;
+     font-size: 18px; 
+     width: 172px;
+     color:  #7a3b08;
+     border: #7a3b08;
+     border-radius: 20%;
+     box-shadow: 0 0 5px tomato, 0 0 25px rgb(253, 126, 104);
+     transition: 0.5s;   
+}
+
+#btnreset:hover {
+    background: tomato;
+    border: #7a3b08;
+    box-shadow: 0 0 5px tomato, 0 0 25px rgb(253, 126, 104),
+    0 0 50px rgb(253, 126, 104),0 0 100px rgb(253, 126, 104), 0 0 200px rgb(253, 126, 104) ; 
+}
+
+
+
+table{
+    border: 3px burlywood solid;
+    font-family: 'Sigmar', sans-serif;   
+    font-size: 20px;  
+    padding: 50px;
+    text-align: center;
+}
+
+td{
+    backdrop-filter: blur(25px);
+    background-color: antiquewhite;
+    padding: 20px 30px ;
+    font-size: 20px;
+    color:#7a3b08;
+    text-shadow: 1px 4px #f7f2ee;
+    text-align: center;
+    justify-content: center;   
+}
+
+.prompt {
+    position: relative;
+    top: 530px;
+    left: 290px;
+    padding-top: 40px;
+    width: 460px;
+    height: 150px;
+    font-size: 30px;
+    font-family: 'Sigmar', sans-serif; 
+    text-shadow: 1px 4px #7a3b08;
+    text-align: center;
+    backdrop-filter: blur(13px);
+    border-radius: 18%;
+    box-shadow: 10px 10px 110px #555;
+    color: rgb(220, 242, 245);
+    transition: .3s ease;
+     
+}
+.prompt:hover{
+    background-image: url('./images/abscolorful_vector_fluid_design_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px #7a3b08, 0 0 25px #7a3b08,0 0 50px #7a3b08;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
